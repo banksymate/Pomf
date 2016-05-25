@@ -34,15 +34,5 @@ No searches or seizures of any kind have ever been performed on Pomf.cat assets,
                 include "footer.php";
         ?>
 </div>
-<!--
-<script>
-function expand(){
-	var doc = document.getElementById("sharexImage");
-	var shouldExpand = doc.height == 351;
-	doc.height = shouldExpand ? doc.height * (5/3) : doc.height * (3/5);
-	doc.width = shouldExpand ? doc.width * (5/3) : doc.width * (3/5);
-}
-</script>
--->
 </body>
 </html>
