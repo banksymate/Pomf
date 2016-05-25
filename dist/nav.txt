@@ -1,0 +1,11 @@
+        <nav>
+            <ul>
+                <li><a href="//pomf.cat">Pomf</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="transparency.php">Transparency</a></li>
+                <li><a href="tools.php">Tools</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="https://u.pomf.cat/">Shortener</a></li>
+                <li><a href="https://sinister.ly/">Sinisterly</a></li>
+               </ul>
+        </nav>

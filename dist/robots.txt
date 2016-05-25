@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Disallow: 
+User-agent: ia_archiver
+Disallow: 
+User-agent: baiduspider
+Disallow: /
+User-agent: *
+Disallow: 
+Crawl-delay: 5

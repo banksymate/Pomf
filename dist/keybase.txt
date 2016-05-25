@@ -1,0 +1,142 @@
+==================================================================
+https://keybase.io/pomf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pomf.cat
+  * I am pomf (https://keybase.io/pomf) on keybase.
+  * I have a public key ASC7_KHLt7MCnU2um8hDSCvmj96eOOB5ImpHyRlK29AyAwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120bbfca1cbb7b3029d4dae9bc843482be68fde9e38e079226a4
+7c9194adbd032030a",
+            "host": "keybase.io",
+            "kid": "0120bbfca1cbb7b3029d4dae9bc843482be68fde9e38e079226a47c9194a
+dbd032030a",
+            "uid": "e4aa723cd77158b9d8f12f002f2da619",
+            "username": "pomf"
+        },
+        "service": {
+            "hostname": "pomf.cat",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.8"
+    },
+    "ctime": 1454803425,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1454803377,
+        "hash": "b0f8839161c13f40d48a177969db94b0427adbbfa5193f6f7257028584818fa
+5f9a5aa54e1fcdfdb73336cb722c985b85a25cc3a37b290764bdc226ee187621f",
+        "seqno": 374039
+    },
+    "prev": "c66c88f2e17e09bbb6a49613fe8d58a59dc4e6a47a041c914462c5bc8c88d2c6",
+    "seqno": 21,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu/yhy7ezAp1NrpvIQ0gr5o/enjjgeSJq
+R8kZStvQMgMKp3BheWxvYWTFAux7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYmJmY2Ex
+Y2JiN2IzMDI5ZDRkYWU5YmM4NDM0ODJiZTY4ZmRlOWUzOGUwNzkyMjZhNDdjOTE5NGFkYmQwMzIwMzBh
+IiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYmJmY2ExY2JiN2IzMDI5ZDRkYWU5YmM4NDM0
+ODJiZTY4ZmRlOWUzOGUwNzkyMjZhNDdjOTE5NGFkYmQwMzIwMzBhIiwidWlkIjoiZTRhYTcyM2NkNzcx
+NThiOWQ4ZjEyZjAwMmYyZGE2MTkiLCJ1c2VybmFtZSI6InBvbWYifSwic2VydmljZSI6eyJob3N0bmFt
+ZSI6InBvbWYuY2F0IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRp
+bmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZl
+cnNpb24iOiIxLjAuOCJ9LCJjdGltZSI6MTQ1NDgwMzQyNSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1l
+cmtsZV9yb290Ijp7ImN0aW1lIjoxNDU0ODAzMzc3LCJoYXNoIjoiYjBmODgzOTE2MWMxM2Y0MGQ0OGEx
+Nzc5NjlkYjk0YjA0MjdhZGJiZmE1MTkzZjZmNzI1NzAyODU4NDgxOGZhNWY5YTVhYTU0ZTFmY2RmZGI3
+MzMzNmNiNzIyYzk4NWI4NWEyNWNjM2EzN2IyOTA3NjRiZGMyMjZlZTE4NzYyMWYiLCJzZXFubyI6Mzc0
+MDM5fSwicHJldiI6ImM2NmM4OGYyZTE3ZTA5YmJiNmE0OTYxM2ZlOGQ1OGE1OWRjNGU2YTQ3YTA0MWM5
+MTQ0NjJjNWJjOGM4OGQyYzYiLCJzZXFubyI6MjEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAgUnSs7w7
+Nw125ZctIKGMiwMRKRhP/8rqhnV4U04pxS1cKk/iYhxviNhYqHXBJ94yxgmNHFKHKhH+aZpqq21KB6hz
+aWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pomf
+
+==================================================================
+
+==================================================================
+https://keybase.io/nmap
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pomf.cat
+  * I am nmap (https://keybase.io/nmap) on keybase.
+  * I have a public key with fingerprint DE28 C8BE AFBC 1C3C 86A1  08FE 3CCA FDBD 9018 DB87
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013010326591b0bfcab9cde51cd68334b8552f9bae92b93f1917caeee54a87b2ea0a",
+            "fingerprint": "de28c8beafbc1c3c86a108fe3ccafdbd9018db87",
+            "host": "keybase.io",
+            "key_id": "3ccafdbd9018db87",
+            "kid": "01013010326591b0bfcab9cde51cd68334b8552f9bae92b93f1917caeee54a87b2ea0a",
+            "uid": "5286b91aa11e48184da2c742f7f08419",
+            "username": "nmap"
+        },
+        "service": {
+            "hostname": "pomf.cat",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1454803792,
+    "expire_in": 157680000,
+    "prev": "d1fdca90796734d32ca01ee6b585b7f2a357f7068657b532592b5ab242113d39",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJbSBVBGD5aGRpBKiVdwNrUyCR3dnZ2Z08Xo4IoyjQyLKrjzOzsaVN3
+T2f3WGZGZRdKIctMzIfoJUgjMCqih0jpoVQwuj0EEUFEdKOSbhSdZqXeemweZph/
+vu+b7//4b08cE8pIaf967+acLxffpgz2HU+ENlxrLmuQqGvWS+EGqZqPHrzG5J4f
+qbZNKSzJQAZQbFDRkAGoTC1GqMFMjgAzNQyhSjFCimVQwg2FGtACBtAZ4ZwjlWCd
+KpzIRCqSLNuJ8ngsbju+kDW5ghmmnFiUAQYZ1giQscUhY8QyqWnIAJsU64K4zfUC
+hjBHicfn266oiUtk1N4/8P/Zd2JUDilYowYgBACuYoBVkyhMVxVLt2SsAiMAejzu
+kFou0E4tiUmNRZKo1NmMB6EGXfx5jbm11nxGfMGJxV3fZW6NqG7z/ZgXDlh+fSyA
+7eQ08kcgQm3HFPkJRh2Pe7brSGEgkMy3A0WgIhXLUDeUIonvitlxHrEDBNI1LIsV
+/MPrgtSBZTJiyLqh6VA1ocKIDDjXKMKI6pZCINItXdawhnSKoIJEMohQRVUAgCYM
+uvT4DseVwljYJFEh6dlRh/iJOJca+29tHhtKyQiljUsN5iqUkT7p77QN7BifLMeP
+nMVv+9uWtmb2LM+endw4PZFWvPD0gqp1K4e6blx52kRepljtV08W4OTEgi0v3IKt
+P356azfhX27xmtQLzip/RknLmBPtpZ29SvTMJTh1WXfzzIwBsCgn2fq6vyz7aDWc
+21fx8c3dnrYJ3U1XW0Byb41fL8EDs85NP9+RFT2ofcnPLNi9+kDpvofrC5cMDKdX
+Npe/rJ7h331wJC+94nnXobLFrUdzklXXJ12bln8qd0TNPXh+Jerbn1Z3uHLehuOo
+I2/wzvDI8Du/oe9y4f1fqdQoYcnPa94Vj0x+0vmsUZ/ybTjr9boPe74fPtuWKPm0
+Z0Xlt+5X74+V9D7efmioiQ/8BpUDP6w=
+=5bRo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nmap
+
+==================================================================
+
