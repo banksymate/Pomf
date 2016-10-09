@@ -30,10 +30,6 @@
 </p>
 <br>
 
-<p class="h-card">
-  <span class="p-name"><a href="https://twitter.com/qaaaaaqaaaaqq">syrah</a></span><br>
-</p>
-
 <div style="margin-left: 50%;margin-top: -36%">
   <iframe src="https://discordapp.com/widget?id=138098104716099586&theme=dark" width="250" height="300" allowtransparency="true" frameborder="0"></iframe>
 </div>
