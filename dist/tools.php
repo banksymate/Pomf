@@ -22,6 +22,10 @@
 	<br />
         <dd><a href="https://a.pomf.cat/xjeviv.png"><img height="60%" width="60%" id="sharexImage" src="https://a.pomf.cat/xjeviv.png" /></a></dd><!-- onclick="expand()"-->
 	<br />
+	<dd>After, go to Destinations -> Destination Settings -> Pomf and select "Pomf.Cat"</dd>
+	<br />
+	<dd><a href="https://a.pomf.cat/xjeviv.png"><img height="90%" width="90%" id="sharexImage" src="https://a.pomf.cat/jhsrmt.png" /></a></dd>
+	<br />
 	<dd>To use our Polr shortener, go to ShareX and put the following info
 	<br/> under Destination Settings -> Polr</dd>
 	<dd>API hostname: <b>https://u.pomf.cat/api.php</b></dd>

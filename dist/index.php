@@ -11,7 +11,7 @@ content="text/html; charset=UTF-8">
 <body>
     <div class="container">
         <div class="jumbotron">
-	       <h1>Pomf.cat</h1>
+	       <h1 id="logo">Pomf.cat</h1>
 	       <p class="lead">Max upload size is 75MiB, read the <a href="faq.php">FAQ</a></p>
             <noscript>
                 <p class="alert alert-error"><strong>Enable JavaScript</strong> you fucking autist neckbeard, it's not gonna hurt you</p>
@@ -19,12 +19,24 @@ content="text/html; charset=UTF-8">
             <p id="no-file-api" class="alert alert-error"><strong>Your browser is shit.</strong> Install the latest<a href="http://firefox.com/">Firefox</a> or <a href="http://chrome.google.com/">Botnet</a> and come back &lt;3</p><a href="javascript:;" id="upload-btn" class="btn">Select <span>or drop</span>file(s)</a>
             <input id="upload-input" name="files[]" multiple="multiple" data-max-size="75MiB" type="file">
             <ul id="upload-filelist"></ul>
-	    <p class="alert alert-error"><strong>Pomf has been down for scheduled maintenance. There should now be uninterrupted service, if there is any more downtime, please tweet to <a href="https://twitter.com/ilIuminous">@ilIuminous</a>.</strong><br/>To use our shortener service with ShareX, look at <a href="tools.php">Tools</a></p>
-	    <!--
-	    <p class="alert alert-error"><strong>All filetypes are now enabled, malware scans are now daily, full SSL support has been enabled, and the filesize limit has been increased. Thanks <a href="https://twitter.com/Drybones5">Drybones</a> :3<br/>
-	    Please take your abuse complaints to our <a href="contact.html">contact</a> page, not cloudflare or our host. It's the quickest way to get our notice and less difficult for us. Thanks
-	    </strong></p>-->
+	    <audio id="sickerMeme" src="sick.mp3" />
+	    <script>
+		var i = 0, text;
+		var str = "Dude, that's a sick meme.";
+		function start(){
+//			document.getElementById("sickerMeme").play();type();
+		}
+		/* Credits: https://jsfiddle.net/creed88/VG8MJ/1/ */
+
+		function type(){
+			text = str.slice(0, ++i);
+			if (text === str) return;
+			document.getElementById('logo').innerHTML = text;
+			setTimeout(type, 80);
+		}
+	    </script>
         </div>
+	<!-- Leo5gg lol -->
 	<?php
 		include "footer.php";
 	?>

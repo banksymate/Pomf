@@ -31,7 +31,7 @@
 <br>
 
 <p class="h-card">
-  <span class="p-name">Brandon - Retired :(</span><br>
+  <span class="p-name"><a href="https://twitter.com/qaaaaaqaaaaqq">syrah</a></span><br>
 </p>
 
 <div style="margin-left: 50%;margin-top: -36%">

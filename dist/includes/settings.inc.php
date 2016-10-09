@@ -15,7 +15,7 @@ $login = array();
 // Root location of files
 // Old Root: define('POMF_FILES_ROOT', '/var/www/Pomf/files/');
 
-define('POMF_FILES_ROOT', '/home/files/');
+define('POMF_FILES_ROOT', '/var/www/files/');
 // Maximum number of iterations while generating a new name
 define('POMF_FILES_RETRIES', 15);
 // URL to prepend to output (include trailing slash)

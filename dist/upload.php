@@ -83,6 +83,13 @@ function upload_file ($file) {
 	// Handle file errors
 	if ($file->error) throw new UploadException($file->error);
 
+//        if($int !== 0){
+//              unlink($file->tempfile);
+//            throw new Exception('Attempt to upload known malware.', 400);
+//        }
+
+
+
 	// Check if a file with the same hash and size (a file which is the same) does already exist in
 	// the database; if it does, delete the file just uploaded and return the proper link and data.
 	$q = $db->prepare('SELECT filename, COUNT(*) AS count FROM files WHERE hash = (:hash) ' .
@@ -92,6 +99,7 @@ function upload_file ($file) {
 	$q->execute();
 	$result = $q->fetch();
 	if ($result['count'] > 0) {
+		if(file_exists("/var/www/files/" . $result['filename']) || file_exists("/home/files/".$result['filename'])){
 		unlink($file->tempfile);
 		$url = $result['filename'];
                 if(isset($_GET["sharex"])){
@@ -103,12 +111,25 @@ function upload_file ($file) {
 			'url'  => $url,
 			'size' => $file->size
 		);
+		}
 	}
 
 	// Generate a name for the file
 	$newname = generate_name($file);
 	// Attempt to move it to the static directory
+	$safe_path = escapeshellarg($file->tempfile);
+
 	if (move_uploaded_file($file->tempfile, POMF_FILES_ROOT . $newname)) {
+        /*$ext   = trim(pathinfo($newname, PATHINFO_EXTENSION));
+	$whitelist = array("png", "jpg", "jpeg", "webm", "gif", "txt", "mp4", "mp3", "wav");
+	if(in_array($ext, $whitelist) == false){
+	        $safe_path = escapeshellarg(POMF_FILES_ROOT . $newname);
+		$safe_path = POMF_FILES_ROOT . $newname;
+	        $command = 'python ../../virustotal_scan.py "' . $safe_path . '" >> /var/www/Pomf/clamdscan-log.txt &';
+	        $out = '';
+	        $int = -1;
+	        exec($command, $out, $int);
+	}*/
 		// Need to change permissions for the new file to make it world readable
 		if (chmod(POMF_FILES_ROOT . $newname, 0644)) {
 			// Add it to the database
